@@ -15,11 +15,11 @@ const Index = () => {
             Simple, secure, and lightning quick.
           </p>
           <div className="flex gap-4 justify-center">
-            <Button size="lg" className="px-8">
+            <Button size="lg" className="px-8" onClick={() => window.location.href = '/login'}>
               Get Started
             </Button>
-            <Button variant="outline" size="lg" className="px-8">
-              Learn More
+            <Button variant="outline" size="lg" className="px-8" onClick={() => window.location.href = '/notes'}>
+              View Demo
             </Button>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Index = () => {
           <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
             Join thousands of users who have transformed their note-taking experience with QuickNote Fire.
           </p>
-          <Button size="lg" className="px-12">
+          <Button size="lg" className="px-12" onClick={() => window.location.href = '/login'}>
             Start Taking Notes Now
           </Button>
         </div>
